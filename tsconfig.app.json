@@ -28,10 +28,10 @@
     "forceConsistentCasingInFileNames": true,
     "baseUrl": ".",
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["test/*"]
     },
-    "typeRoots": ["./node_modules/@types", "./src/types"]
+    "typeRoots": ["./node_modules/@types", "test/types"]
   },
-  "include": ["src"],
+  "include": ["test"],
   "exclude": ["node_modules"]
 }
