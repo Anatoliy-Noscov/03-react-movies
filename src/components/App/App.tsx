@@ -1,11 +1,11 @@
 import { useState } from "react";
 import css from "./App.module.css";
-import SearchBar from "../testsearchbar/SearchBar";
+import SearchBar from "../searchbar/SearchBar";
 import { type Movie } from "../../types/movie";
-import MovieGrid from "../testmoviegrid/MovieGrid";
-import Loader from "../testloader/Loader";
-import ErrorMessage from "../testerrormessage/ErrorMessage";
-import MovieModal from "../testmoviemodal/MovieModal";
+import MovieGrid from "../moviegrid/MovieGrid";
+import Loader from "../loader/Loader";
+import ErrorMessage from "../errormessage/ErrorMessage";
+import MovieModal from "../moviemodal/MovieModal";
 import { getMovies } from "../../services/movieService";
 import toast from "react-hot-toast";
 import { Toaster } from "react-hot-toast";
