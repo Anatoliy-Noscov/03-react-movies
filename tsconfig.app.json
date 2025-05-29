@@ -21,17 +21,7 @@
     "noUnusedParameters": true,
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true,
-
-    /* Добавьте эти новые параметры */
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["test/*"]
-    },
-    "typeRoots": ["./node_modules/@types", "test/types"]
+    "noUncheckedSideEffectImports": true
   },
-  "include": ["test"],
-  "exclude": ["node_modules"]
+  "include": ["src"]
 }
